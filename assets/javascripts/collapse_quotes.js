@@ -1,5 +1,5 @@
 Event.observe(window, 'load', function() {
-  $$('#history > div.has-notes').each(function(div) {
+  $$('div.wiki').each(function(div) {
     div.select('blockquote').each(function(blockquote) {
       if (blockquote.getHeight() < 100)
         return;
